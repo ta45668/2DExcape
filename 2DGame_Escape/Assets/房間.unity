@@ -319,6 +319,8 @@ GameObject:
   - component: {fileID: 55914919}
   - component: {fileID: 55914918}
   - component: {fileID: 55914917}
+  - component: {fileID: 55914921}
+  - component: {fileID: 55914920}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -339,7 +341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -204.62001, y: -157.24284}
+  scrollPos: {x: 0.067471266, y: 28.694637}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 315
@@ -351,9 +353,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 55914902}
+  - {fileID: 55914731}
   selectedCommands:
-  - {fileID: 55914901}
+  - {fileID: 55914920}
   variables:
   - {fileID: 55914785}
   - {fileID: 55914809}
@@ -428,12 +430,14 @@ MonoBehaviour:
   - {fileID: 55914806}
   - {fileID: 55914805}
   - {fileID: 55914804}
+  - {fileID: 55914921}
   - {fileID: 55914730}
   - {fileID: 55914803}
   - {fileID: 55914802}
   - {fileID: 55914801}
   - {fileID: 55914800}
   - {fileID: 55914799}
+  - {fileID: 55914920}
 --- !u!114 &55914732
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6211,6 +6215,42 @@ MonoBehaviour:
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
+--- !u!114 &55914920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55914728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 214
+  indentLevel: 0
+  targetClickable2D: {fileID: 1307098408}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &55914921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55914728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 213
+  indentLevel: 0
+  targetClickable2D: {fileID: 1307098408}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &121536167
 GameObject:
   m_ObjectHideFlags: 0
